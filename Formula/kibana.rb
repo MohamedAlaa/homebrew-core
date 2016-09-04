@@ -4,8 +4,8 @@ class Kibana < Formula
   desc "Analytics and search dashboard for Elasticsearch"
   homepage "https://www.elastic.co/products/kibana"
   url "https://github.com/elastic/kibana.git",
-    :tag => "v4.5.1",
-    :revision => "addb28966a74b61791ceda352cd5b8b1200f2b2a"
+    :tag => "v4.6.0",
+    :revision => "f898fba4809593df9a66cc3d0778f6faae2566d5"
 
   head "https://github.com/elastic/kibana.git"
 
@@ -23,8 +23,8 @@ class Kibana < Formula
   end
 
   resource "node" do
-    url "https://nodejs.org/dist/v4.4.4/node-v4.4.4.tar.gz"
-    sha256 "53c694c203ee18e7cd393612be08c61ed6ab8b2a165260984a99c014d1741414"
+    url "https://nodejs.org/dist/v4.5.0/node-v4.5.0.tar.gz"
+    sha256 "74ced83b8d890d90e2a8b0d54b0d0e9b5e01d6fd6148cec6e9911ff6eaf0cf21"
   end
 
   def install
